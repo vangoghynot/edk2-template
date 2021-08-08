@@ -1,0 +1,231 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "Intel Kabylake Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p KabylakeRvp3 -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel Kabylake Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p KabylakeRvp3 -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel WhiskeyLake Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WhiskeylakeURvp -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel WhiskeyLakelake Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WhiskeylakeURvp -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel CometLake Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CometlakeURvp -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel Cometlake Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CometlakeURvp -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel TigerLake Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p TigerlakeURvp -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel TigerLake Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p TigerlakeURvp -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel WilsonCity Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WilsonCityRvp -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel WilsonCity Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WilsonCityRvp -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel CooperCity Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CooperCityRvp -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Intel CooperCity Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CooperCityRvp -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Microsoft Mt.Olympus Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardMtOlympus -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Microsoft Mt.Olympus Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardMtOlympus -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "Microsoft TiogaPass Build - VS2015:Release",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardTiogaPass -t VS2015 -r"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Microsoft TiogaPass Build - VS2015:Debug",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/K",
+				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardTiogaPass -t VS2015 -d"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		}
+    ]
+}
