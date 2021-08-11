@@ -12,10 +12,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p KabylakeRvp3 -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel Kabylake Build - VS2015:Debug",
@@ -26,10 +23,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p KabylakeRvp3 -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel WhiskeyLake Build - VS2015:Release",
@@ -40,10 +34,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WhiskeylakeURvp -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel WhiskeyLakelake Build - VS2015:Debug",
@@ -54,10 +45,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WhiskeylakeURvp -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel CometLake Build - VS2015:Release",
@@ -68,10 +56,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CometlakeURvp -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel Cometlake Build - VS2015:Debug",
@@ -82,10 +67,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CometlakeURvp -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel TigerLake Build - VS2015:Release",
@@ -96,10 +78,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p TigerlakeURvp -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel TigerLake Build - VS2015:Debug",
@@ -110,10 +89,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p TigerlakeURvp -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel WilsonCity Build - VS2015:Release",
@@ -124,10 +100,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WilsonCityRvp -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel WilsonCity Build - VS2015:Debug",
@@ -138,10 +111,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p WilsonCityRvp -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel CooperCity Build - VS2015:Release",
@@ -152,10 +122,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CooperCityRvp -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Intel CooperCity Build - VS2015:Debug",
@@ -166,10 +133,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p CooperCityRvp -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Microsoft Mt.Olympus Build - VS2015:Release",
@@ -180,10 +144,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardMtOlympus -t VS2015 -r"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Microsoft Mt.Olympus Build - VS2015:Debug",
@@ -194,10 +155,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardMtOlympus -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		},
 		{
 			"label": "Microsoft TiogaPass Build - VS2015:Release",
@@ -222,10 +180,7 @@
 				"${workspaceRoot}\\edk2-platforms\\Platform\\Intel\\python build_bios.py -p BoardTiogaPass -t VS2015 -d"
 			],
 			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": false
-			}
+			"group": "build"
 		}
     ]
 }
